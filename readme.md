@@ -19,7 +19,7 @@ If you stand on a slab then run this command
 ```
 loot give @s loot getshape:shapegetter
 ```
-Then check the stones data with this (assuming this is the first item in your inventory)
+Then check the stones data with this (assuming the stone is the first item in your inventory)
 ```
 data get entity @s Inventory[0].tag.boxes
 ```
