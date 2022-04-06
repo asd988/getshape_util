@@ -28,10 +28,12 @@ This is what you get.
 [{max: [1.0d, 0.5d, 1.0d], min: [0.0d, 0.0d, 0.0d]}]
 ```
 
-## Example function
+## Example function (is_in_block) 
 
 I made an example function that checks if an entity is inside a block or not called `getshape:is_in_block`.
 The result is inside a scoreboard, with the name `output` and with the objective `getshape.temp`.
+
+You can check the source code, for a better understanding on how this works.
 
 ## Exceptions
 
