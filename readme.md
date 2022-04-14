@@ -6,7 +6,7 @@ This was made for 1.18.2, might work on earlier ones as well (didn't test).
 ## How to use
 
 It's pretty easy to use, you just simply use `getshape:shapegetter` loot table wherever you want, and it will drop stone with the data. The path to the array of boxes is `tag.boxes`, and a box is formatted like this:
-```json
+```
 {
   min: [x, y, z],
   max: [x, y, z]
@@ -25,7 +25,7 @@ Then check the stones data with this (assuming the stone is the first item in yo
 data get entity @s Inventory[0].tag.boxes
 ```
 This is what you get.
-```json
+```
 [{max: [1.0d, 0.5d, 1.0d], min: [0.0d, 0.0d, 0.0d]}]
 ```
 
