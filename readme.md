@@ -1,6 +1,7 @@
 # Get Shape Util
 
 This datapack allows you to get a shape of (almost) every block in the game.
+This was made for 1.18.2, might work on earlier ones as well (didn't test).
 
 ## How to use
 
@@ -31,7 +32,7 @@ This is what you get.
 ## Example function (is_in_block) 
 
 I made an example function that checks if an entity is inside a block or not called `getshape:is_in_block`.
-The result is inside a scoreboard, with the name `output` and with the objective `getshape.temp`.
+The result is inside a scoreboard, with the name `output` and with the objective `getshape.temp`. ( 0 = false; 1 = true; )
 
 You can check the source code, for a better understanding on how this works.
 
